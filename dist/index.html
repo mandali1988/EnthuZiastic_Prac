@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/dist/style.css" rel="stylesheet">
+    <title>EnthuZiastic</title>
+  </head>
+  <body class="font-Metropolis">
+    <main>
+      <header>
+        <nav class="menu-container flex md:max-w-[1280px] mx-auto px-[18px] py-[25px] justify-between">
+          <div class="togglemenu xl:hidden"  id="menu-button">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+          <a href="#" class="menu-logo">
+            <!-- logo -->
+            <img src="./images/logo.png" alt="EnthuZiastic">
+          </a>
+          <div class="menu">
+            <!-- menu items -->
+            <div class="md:hidden hidden lg:flex  md:items-center navbar" id="menu" >
+              <ul class="flex justify-between md:pl-[0px] lg:pl-[100px] flex-col xl:flex-row">
+                <li class="p-[10px]"><a href="#" class="cursor-pointer">Courses</a></li>
+                <li class="p-[10px]"><a href="#">Activities</a></li>
+                <li class="p-[10px]"><a href="#">Offers</a></li>
+                <li class="p-[10px]"><a href="#">About Us</a></li>
+                <li class="p-[10px]"><a href="#">Contact Us</a></li>
+              </ul>
+              <ul class="flex justify-between md:pl-[100px]">
+                <li class="p-[10px]"><a href="#signup" >Login</a></li>
+                <li><a href="#login" class="startedbutton">Get Started</a></li>
+              </ul>
+            </div>
+            <ul class="flex justify-between w-[150px] items-center social">
+              <li><a href="#"><img src="./images/whatsapp-icon.png" alt="Whatsapp" /></a></li>
+              <li><a href="#"><img src="./images/LinkedIn.png" alt="Loinkdin"></a></li>
+              <li><a href="#"><img src="./images/Facebook.png" alt="Facebook"></a></li>
+            </ul>
+          </div>
+        </nav>
+      </header>
+      <section class="bg-[linear-gradient(0deg,rgba(255,188,0,0.20),rgba(255,188,0,0.20))] shadow-[0px_2px_4px_-2px_rgba(0,0,0,0.05),0px_4px_6px_-1px_rgba(0,0,0,0.10)]" >
+        <div class="w-full max-w-[1440px] min-h-[78px] mx-auto sm:px-[10px] md:px-[68px] py-[20px] flex lg:justify-between justify-center align-baseline items-center flex-wrap ">
+          <div class="font-medium text-[#6300DF] text-[24px] md:text-left text-center pb-2 lg:pb-[0px] px-4 md:px-[0px]">You are Invited to Join this Batch</div>
+          <div class="">
+            <button class="accept-button sm:min-w-[363px] min-[100%] max-sm-[363px] hover:opacity-80">
+            Accept & Proceed to Pay </button>
+          </div>
+        </div>
+      </section>
+      <section class="bg-[#FCFCFC] shadow-[0px_2px_4px_-2px_rgba(0,0,0,0.05),0px_4px_6px_-1px_rgba(0,0,0,0.10)]" >
+        <div class="w-full max-w-[1440px] min-h-[78px] mx-auto py-[20px] lg:py-[0px] px-[10px] md:px-[68px] flex lg:justify-between justify-center align-center lg:flex-row flex-col lg:align-baseline items-center flex-wrap ">
+          <div class="md:w-[90px] lg:w-[25%] flex text-[20px] text-[#333] cursor-pointer"><img src="./images/arrow-left-solid.png" class="pr-4" /> Back</div>
+          <div class=" w-[90%] lg:w-[50%] text-center sm:max-w-[416px] py-[15px] ">
+            <h3 class="text-[#6300DF] text-[20px] font-medium pb-2">Accepting Students</h3>
+            <div class="border-[1px] w-full sm:w-[425px] leading-[28px] border-[#FF1472] px-[24px] py-[9px] rounded-[34px] cursor-pointer text-[20px] font-normal text-[#FF1472] li">Last date for applying <span class="font-semibold">28 March, 2023</span></div>
+          </div>
+          <div class="w-[100%] md:w-[25%] flex justify-center lg:justify-end">
+            <button class="bg-[#6300DF]  sm:min-w-[232px] min-[100%] max-sm-[232px] text-[#fff] flex items-center justify-center p-2 rounded-[14px] font-semibold cursor-pointer hover:opacity-80">Invite Your Friends &nbsp; <img src="./images/forward.png" alt="forward" /> </button>
+          </div>
+        </div>
+      </section>
+      <section class="w-[100%] sm:max-w-[1300px] px-[16px] py-[24px] m-auto ">
+        <div>
+          <h4 class="text-[20px] text-[#333] font-semibold">Your Course </h4>
+        </div>
+        <div class="flex flex-col md:flex-row md:max-w-[none] justify-between border-[1px] border-[rgba(255, 20, 114, 0.50)] shadow-[0px_2px_4px_-2px_rgba(0, 0, 0, 0.05), 0px_4px_6px_-1px_rgba(0, 0, 0, 0.10)] p-[14px] rounded-lg">
+          <div class="">
+            <img src="./images/bannerImg.jpg" alt="banner" class="min-w-[222px] w-[222px] h-[168px] mb-2 md:mb-0">
+          </div>
+          <div class="p-1 md:ml-4 ml-0">
+            <h5 class="flex justify-between text-[#FF1472] text-[24px] font-medium leading-[36px]">Violin <span class="bg-[#FFEBB3] inline-block px-[10px] h-[22px] leading-[22px] py-[2px] text-[#333333] text-[14px] font-normal rounded-[4px]">Not Started</span></h5>
+            <p class="pt-5 pb-5 text-[#333333] text-[16px] font-normal leading-[19px]">Learn to play violin with expert music teachers online at Enthuziastic. Start from scratch and learn to play popular melodies. Kids or adults, anybody can join this course and start learning violin.
+            </p>
+            <div class="flex flex-wrap">
+              <ul class="flex justify-between flex-wrap w-[100%] md:w-[78%] mr-3 point">
+                <li>
+                  <ul>
+                    <li class="flex flex-row pb-1">
+                      <img src="./images/check-circle.png" alt="check" class="w-[20px] max-w-[none] h-[20px] mr-2" />
+                      <span class="text-[16px] leading-[22px] text-[#333333]"><span class="font-semibold">120 live</span> tutoring sessions</span>
+                    </li>
+                  </ul>
+                </li>
+                <li>
+                  <ul>
+                    <li class="flex flex-row pb-1">
+                      <img src="./images/check-circle.png" alt="check" class="w-[20px] max-w-[none] h-[20px] mr-2" />
+                      <span class="text-[16px] leading-[22px] text-[#333333]">Access on  <span class="font-semibold">mobile and web </span></span>
+                    </li>
+                  </ul>
+                </li>
+                <li>
+                  <ul>
+                    <li class="flex flex-row pb-1">
+                      <img src="./images/check-circle.png" alt="check" class="w-[20px] max-w-[none] h-[20px] mr-2" />
+                      <span class="text-[16px] leading-[22px] text-[#333333]">Access on  <span class="font-semibold">mobile and web </span></span>
+                    </li>
+                  </ul>
+                </li>
+                <li>
+                  <ul>
+                    <li class="flex flex-row pb-1">
+                      <img src="./images/check-circle.png" alt="check" class="w-[20px] max-w-[none] h-[20px] mr-2" />
+                      <span class="text-[16px] leading-[22px] text-[#333333]"><span class="font-semibold">12 Modules</span></span>
+                    </li>
+                  </ul>
+                </li>
+                <li>
+                  <ul>
+                    <li class="flex flex-row pb-1">
+                      <img src="./images/check-circle.png" alt="check" class="w-[20px] max-w-[none] h-[20px] mr-2" />
+                      <span class="text-[16px] leading-[22px] text-[#333333]"><span class="font-semibold">Certificate</span> of completion</span>
+                    </li>
+                  </ul>
+                </li>
+                <li>
+                  <ul>
+                    <li class="flex flex-row pb-1">
+                      <img src="./images/check-circle.png" alt="check" class="w-[20px] max-w-[none] h-[20px] mr-2" />
+                      <span class="text-[16px] leading-[22px] text-[#333333]"><span class="font-semibold">Certificate</span> of completion</span>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+              <button class="shadow-[0px_2px_4px_-2px_rgba(0,0,0,0.05),0px_4px_6px_-1px_rgba(0,0,0,0.10)] mt-2 bg-[#FF1472]  sm:min-w-[180px] min-[100%] max-sm-[180px] text-[#fff] flex items-center justify-center p-2 rounded-[8px] font-medium cursor-pointer hover:opacity-80"><img src="./images/document-text.png" alt="document" />&nbsp; Curriculum</button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="w-[100%] sm:max-w-[1300px] px-[16px] py-[12px] m-auto">
+        <div class="bg-[#6300DF] min-h-[58px] shadow-[0px_2px_4px_-2px_rgba(0,0,0,0.05),0px_4px_6px_-1px_rgba(0,0,0,0.10)] py-[10px] px-[15px] rounded-lg">
+          <ul class="midsec flex flex-wrap lg:flex-row flex-col">
+            <li class="mb-3 xl:mb-0 text-[#fff] text-[20px] leading-[28px] font-normal"> <span class="mr-[5px] w-[38px] h-[38px] rounded-full bg-[#fff] inline-block text-[16px] leading-[38px] font-medium text-[#6300DF] text-center ">24</span>
+              Total Sessions
+            </li>
+            <li  class=" mb-3 xl:mb-0 text-[#fff] text-[20px] leading-[28px] font-normal"> <span class="mr-[5px] w-[38px] h-[38px] rounded-full bg-[#fff] inline-block text-[16px] leading-[38px] font-medium text-[#6300DF] text-center ">14</span>
+              Sessions not Started
+            </li>
+            <li  class="mb-3 xl:mb-0 text-[#fff] text-[20px] leading-[28px] font-normal"> <span class="mr-[5px] w-[38px] h-[38px] rounded-full bg-[#fff] inline-block text-[16px] leading-[38px] font-medium text-[#6300DF] text-center ">10</span>
+              Sessions Completed
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="w-[100%] sm:max-w-[1300px] px-[16px] py-[12px] m-auto">
+        <div class="flex flex-col md:flex-row md:max-w-[none] justify-between">
+          <div class="w-full md:w-[324px] md:min-w-[324px] my-5">
+            <div class="text-[#333333] text-[16px] font-medium text-center bg-[linear-gradient(0deg,rgba(255,188,0,0.20),rgba(255,188,0,0.20))] leading-[42px] rounded-t-[12px]">
+              Batch No. - <span>1234567</span>
+            </div>
+            <div class="bg-[#FFF1F7] py-4 px-[25px] rounded-b-[12px]">
+              <ul>
+                <li class="mb-[18px] text-[16px] text-[#333] font-normal leading-[24px] flex items-center"><img src="./images/play.png" alt="ply" class="mr-3" /> Sessions <span class="text-[20px] font-medium">: 24</span></li>
+                <li class="mb-[18px] text-[16px] text-[#333] font-normal leading-[24px] flex items-center"><img src="./images/user-group.png" alt="user-group" class="mr-3" /> Max. Learners <span class="text-[20px] font-medium">: 4</span></li>
+                <li class="mb-[18px] text-[16px] text-[#333] font-normal leading-[24px] flex items-center"><img src="./images/translate.png" alt="translate" class="mr-3" /> Language <span class="text-[20px] font-medium">: English</span></li>
+                <li class="mb-[18px] text-[16px] text-[#333] font-normal leading-[24px] flex items-center"><img src="./images/user.png" alt="user" class="mr-3" /> Age Group <span class="text-[20px] font-medium">: 12 to 24</span></li>
+                <li class="mb-[18px] text-[16px] text-[#333] font-normal leading-[24px] flex items-center"><img src="./images/calendar.png" alt="calendar" class="mr-3" /> Start Date <span class="text-[20px] font-medium">&nbsp;: 10 Aug 2023</span></li>
+              </ul>
+              <div class="border-[#C4C4C4] border-t-[2px] border-b-[2px] py-5 my-5">
+                <h5 class="text-[16px] text-[#111928] font-semibold">Schedule (Session/ Week - 4)   </h5>
+                <ul class="flex justify-between py-3 max-w-[274px]">
+                  <li class="flex items-center flex-col"><span class="block text-[12px] text-[#717171] font-medium border-[#C4C4C4] border-[1px] w-[29px] leading-[29px] bg-[#ffffff] text-center rounded-lg cursor-pointer">Su</span><span></span></li>
+                  <li class="flex items-center flex-col"><span class="block text-[12px] text-[#717171] font-medium border-[#C4C4C4] border-[1px] w-[29px] leading-[29px] bg-[#ffffff] text-center rounded-lg cursor-pointer">M</span><span></span></li>
+                  <li class="flex items-center flex-col"><span class="block text-[12px] text-[#ffffff] font-medium border-[#FF1472] border-[1px] w-[29px] leading-[29px] bg-[#FF1472] rounded-lg text-center cursor-pointer" >T</span> <span class="text-[12px] text-[#717171] font-medium border-[#C4C4C4] block text-center">08:00<br />AM</span></li>
+                  <li class="flex items-center flex-col"><span class="block text-[12px] text-[#717171] font-medium border-[#C4C4C4] border-[1px] w-[29px] leading-[29px] bg-[#ffffff] text-center rounded-lg cursor-pointer">W</span><span></span></li>
+                  <li class="flex items-center flex-col"><span class="block text-[12px] text-[#ffffff] font-medium border-[#FF1472] border-[1px] w-[29px] leading-[29px] bg-[#FF1472] rounded-lg text-center cursor-pointer">Th</span><span class="text-[12px] text-[#717171] font-medium border-[#C4C4C4] block text-center">08:00<br />AM</span></li>
+                  <li class="flex items-center flex-col"><span class="block text-[12px] text-[#717171] font-medium border-[#C4C4C4] border-[1px] w-[29px] leading-[29px] bg-[#ffffff] text-center rounded-lg cursor-pointer">F</span><span></span></li>
+                  <li class="flex items-center flex-col"><span class="block text-[12px] text-[#717171] font-medium border-[#C4C4C4] border-[1px] w-[29px] leading-[29px] bg-[#ffffff] text-center rounded-lg cursor-pointer">S</span><span></span></li>
+                </ul>
+              </div>
+              <div class="flex flex-col">
+                <div class="text-[16px] text-[#6B7280] leading-[24px] mb-2">Host / Teacher</div>
+                <div class="flex">
+                  <img src="./images/Img_1.png" class="w-[40px] h-[40px] mr-3" alt="Auther name">
+                  <div class="block">
+                    <span class="text-[16px] text-[#111928] leading-[20px]">Avinash Dave</span>
+                    <div class="flex items-baseline">
+                      <span class="text-[#FFBF00] text-[16px] font-medium">4.5</span>
+                      <ul class="flex items-baseline mx-2">
+                        <li class="text-center w-[20px] text-[20px] leading-[16px] text-[#FFBF00]">&#9733;</li>
+                        <li class="text-center w-[20px] text-[20px] leading-[16px] text-[#FFBF00]">&#9733;</li>
+                        <li class="text-center w-[20px] text-[20px] leading-[16px] text-[#FFBF00]">&#9733;</li>
+                        <li class="text-center w-[20px] text-[20px] leading-[16px] text-[#FFBF00]">&#9733;</li>
+                        <li class="text-center w-[20px] text-[20px] leading-[16px] text-[#FFBF00]">&#9734;</li>
+                      </ul>
+                      <span class="text-[#333] text-[16px] font-medium">(120)</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="text-[16px] text-[#6B7280] leading-[24px] mb-2 mt-3">Enrolled Learners</div>
+                <div class="flex mb-3">
+                  <ul class="flex items-baseline">
+                    <li><img src="./images/Img_2.png" class="w-[34px] h-[34px]" alt=""></li>
+                    <li class="ml-[-5px]"><img src="./images/Img_3.png" class="w-[34px] h-[34px]" alt=""></li>
+                    <li class="ml-[-5px]"><img src="./images/Img_1.png" class="w-[34px] h-[34px]" alt=""></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="flex pt-10 pb-5 flex-col">
+              <span class="text-[14px] text-[#717171] leading-[21px]">Pro Rated Price</span>
+              <div class="text-[30px] font-bold text-[#111928] leading-[37px] flex items-center">
+                $ 28.89 
+                <sapn class="pl-2 font-medium text-[14px] leading-[21px] text-[#111928]">(14 sessions)</sapn>
+              </div>
+            </div>
+          </div>
+          <div class="p-1 md:ml-8 ml-0 my-5">
+            <div>
+              <h4 class="text-[20px] text-[#333] font-semibold">Curriculum </h4>
+            </div>
+            <div class="flex overflow-auto max-h-[625px] border-[1px] border-[rgba(255, 20, 114, 0.50)] shadow-[0px_2px_4px_-2px_rgba(0, 0, 0, 0.05), 0px_4px_6px_-1px_rgba(0, 0, 0, 0.10)] p-[14px] rounded-lg">
+              <p class="pt-2 pb-2  text-[#000000] text-[16px] font-normal leading-[31px]">The violin course is designed to provide comprehensive instruction and guidance for beginners and intermediate learners looking to master the art of playing the violin. Throughout the course, students will receive a well-structured curriculum that covers the essential aspects of violin playing, from the basics to more advanced techniques.<br /><br />
+                The course begins with an introduction to the violin, its parts, and how to properly hold the instrument and the bow. Students will learn the fundamentals of reading sheet music and understanding musical notation specific to the violin.
+                As the course progresses, students will be introduced to basic bowing techniques, finger placements, and scales. They will gradually advance to more complex bowing styles, vibrato, and shifting positions on the fingerboard. Proper posture and hand positioning will be emphasized to ensure students develop good habits and prevent injuries.<br /><br />
+                Throughout the course, students will be exposed to a variety of musical pieces, ranging from classical to contemporary, allowing them to apply their newly acquired skills and improve their performance abilities.
+                The violin course will also cover music theory relevant to the instrument, enabling students to grasp the principles of harmony, rhythm, and musical expression, enhancing their overall musicianship.<br /><br />
+                In addition to individual practice, the course may include ensemble playing opportunities, providing students with the chance to collaborate with other musicians and develop their ensemble skills.
+                By the end of the course, students should have gained a solid foundation in violin playing, a good understanding of music theory, and the ability to perform various pieces confidently. Whether pursuing a professional music career or playing the violin for personal enjoyment, this course aims to equip students with the necessary skills to continue advancing their musical journey.
+              </p>
+            </div>
+            <div class="flex flex-col justify-around pt-6 md:flex-row">
+              <butoon class="hover:opacity-80 cursor-pointer py-3 text-center mt-7 px-6 w-[100%] md:w-[48%] rounded-lg text-[#fff] text-[18px] leading-[27px] font-medium border-[#FF1472] bg-[#FF1472]">Apply To Learn</butoon>
+              <butoon class="hover:bg-[#FF1472] hover:text-[#fff] hover:opacity-80 cursor-pointer py-3 text-center mt-7 px-6 w-[100%] md:w-[48%] rounded-lg text-[#FF1472] text-[18px] leading-[27px] font-medium border-[1px] border-[#FF1472]">Apply To Teach</butoon>
+            </div>
+          </div>
+        </div>
+      </section>
+      <footer class="mt-4 bg-[#6300DF] ">
+        <div class="w-[100%] sm:max-w-[1300px] px-[16px] py-[12px] m-auto pt-3 flex flex-wrap xl:flex-nowrap lg:flex-row flex-col">
+          <div class="flex flex-col items-start pt-12 max-w-sm md:mr-24 sm-w-full lg-w-[384px]">
+            <img src="./images/logofooter.png" alt="EnthuZiastic" />
+            <p class="text-[16px] leading-[24px] py-5 text-[#fff]">EnthuZiastic is a vibrant and dynamic community dedicated to fostering a passion for learning and
+              personal growth. 
+            </p>
+            <ul class="flex items-center">
+              <li class="pr-5 text-left"><a href="#" target="_blank"><img src="./images/LinkedInWhite.png" alt=" LinkedIn"></a></li>
+              <li class="pr-5 text-left"><a href="#" target="_blank"><img src="./images/twitter.png" alt="twitter"></a></li>
+              <li class="pr-5 text-left"><a href="#" target="_blank"><img src="./images/FacebookWhite.png" alt="Facebook"></a></li>
+              <li class="pr-5 text-left"><a href="#" target="_blank"><img src="./images/YouTubeWhite.png" alt=" Youtube"></a></li>
+            </ul>
+          </div>
+          <div class="flex w-full lg:w-[calc(100%_-_384px)] flex-wrap  sm:flex-nowrap ">
+            <ul class="pt-14 md:w-1/4 min-w-[150px]">
+              <li>
+                <h3 class="text-[14px] leading-[21px] text-[#fff] font-extrabold pb-5">COMPANY</h3>
+              </li>
+              <li><a href="#" target="_blank" class="text-[16px] leading-[24px] text-[#fff] block pb-4">About</a></li>
+              <li><a href="#" target="_blank" class="text-[16px] leading-[24px] text-[#fff] block pb-4">Premium</a></li>
+              <li><a href="#" target="_blank" class="text-[16px] leading-[24px] text-[#fff] block pb-4">Blog</a></li>
+              <li><a href="#" target="_blank" class="text-[16px] leading-[24px] text-[#fff] block pb-4">Affiliate Program</a></li>
+              <li><a href="#" target="_blank" class="text-[16px] leading-[24px] text-[#fff] block pb-4">Get Coupon</a></li>
+            </ul>
+            <ul class="pt-14 md:w-1/4 min-w-[150px]">
+              <li>
+                <h3 class="text-[14px] leading-[21px] text-[#fff] font-extrabold pb-5">Help and support</h3>
+              </li>
+              <li><a href="#" target="_blank" class="text-[16px] leading-[24px] text-[#fff] block pb-4">Contact Us</a></li>
+              <li><a href="#" target="_blank" class="text-[16px] leading-[24px] text-[#fff] block pb-4">Knowledge Center</a></li>
+              <li><a href="#" target="_blank" class="text-[16px] leading-[24px] text-[#fff] block pb-4">Premium Support</a></li>
+              <li><a href="#" target="_blank" class="text-[16px] leading-[24px] text-[#fff] block pb-4">Sponsorships</a></li>
+            </ul>
+            <ul class="pt-14 md:w-1/4 min-w-[150px]">
+              <li>
+                <h3 class="text-[14px] leading-[21px] text-[#fff] font-extrabold pb-5">RESOURCES</h3>
+              </li>
+              <li><a href="#" target="_blank" class="text-[16px] leading-[24px] text-[#fff] block pb-4">Third-Party Tools</a></li>
+              <li><a href="#" target="_blank" class="text-[16px] leading-[24px] text-[#fff] block pb-4">Illustrations</a></li>
+              <li><a href="#" target="_blank" class="text-[16px] leading-[24px] text-[#fff] block pb-4">Themesberg</a></li>
+              <li><a href="#" target="_blank" class="text-[16px] leading-[24px] text-[#fff] block pb-4">Bluehost</a></li>
+              <li><a href="#" target="_blank" class="text-[16px] leading-[24px] text-[#fff] block pb-4">Stock Photos</a></li>
+            </ul>
+            <ul class="pt-14 md:w-1/4 min-w-[150px]">
+              <li>
+                <h3 class="text-[14px] leading-[21px] text-[#fff] font-extrabold pb-5">LEGAL</h3>
+              </li>
+              <li><a href="#" target="_blank" class="text-[16px] leading-[24px] text-[#fff] block pb-4">Privacy Policy</a></li>
+              <li><a href="#" target="_blank" class="text-[16px] leading-[24px] text-[#fff] block pb-4">Terms & Conditions</a></li>
+              <li><a href="#" target="_blank" class="text-[16px] leading-[24px] text-[#fff] block pb-4">EULA</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="w-[100%] sm:max-w-[1300px] px-[16px] m-auto text-[16px] font-normal text-[#ffffff] leading-[24px] text-center p-7 mt-5 block border-[#fff] border-t-[1px]">
+          &copy; 2023 EnthuZiastic, Inc. All rights reserved.
+        </div>
+      </footer>
+    </main>
+    <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+    <script src="../dist/js/main.js"></script>
+  </body>
+</html>
